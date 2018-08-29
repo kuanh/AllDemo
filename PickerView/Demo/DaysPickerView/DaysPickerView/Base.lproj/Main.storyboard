@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xiG-By-wMT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="DaysPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALY-k4-ZWJ">
+                                <rect key="frame" x="0.0" y="437" width="375" height="230"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F0b-rI-2b1">
+                                        <rect key="frame" x="-1" y="0.0" width="375" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    </pickerView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="kXe-a0-C1r"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPa-EP-Og7">
+                                <rect key="frame" x="100" y="241" width="175" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="-------">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickHideShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I9Y-S2-Buc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UPa-EP-Og7" secondAttribute="trailing" constant="100" id="PEb-RW-351"/>
+                            <constraint firstItem="ALY-k4-ZWJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PU6-PV-Q8F"/>
+                            <constraint firstItem="UPa-EP-Og7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Rao-xp-QeT"/>
+                            <constraint firstItem="UPa-EP-Og7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="221" id="SIM-4q-N1V"/>
+                            <constraint firstItem="ALY-k4-ZWJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nhG-dh-7QB"/>
+                            <constraint firstItem="ALY-k4-ZWJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nqP-M8-hMV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="PU6-PV-Q8F" id="fUg-P9-Tlh"/>
+                        <outlet property="btHideShow" destination="UPa-EP-Og7" id="7i3-0X-pLS"/>
+                        <outlet property="dayPicker" destination="F0b-rI-2b1" id="7gt-RM-kQK"/>
+                        <outlet property="viewDays" destination="ALY-k4-ZWJ" id="9w3-RX-bqx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-386" y="123"/>
+        </scene>
+        <!--Button View Controller-->
+        <scene sceneID="tRX-ds-wUP">
+            <objects>
+                <viewController id="xiG-By-wMT" customClass="ButtonViewController" customModule="DaysPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9RM-cz-4zz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nlv-Bb-2jB">
+                                <rect key="frame" x="100" y="223" width="175" height="30"/>
+                                <state key="normal" title="------------">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickHideShow:" destination="xiG-By-wMT" eventType="touchUpInside" id="856-pH-faH"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34K-eW-yKa">
+                                <rect key="frame" x="0.0" y="442" width="375" height="225"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NY4-sM-EHj">
+                                        <rect key="frame" x="0.0" y="-3" width="375" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    </pickerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="QsY-rM-97g"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nlv-Bb-2jB" firstAttribute="leading" secondItem="frk-Li-ur7" secondAttribute="leading" constant="100" id="1CP-xZ-KkN"/>
+                            <constraint firstItem="34K-eW-yKa" firstAttribute="bottom" secondItem="frk-Li-ur7" secondAttribute="bottom" id="4yL-nI-Kaq"/>
+                            <constraint firstItem="frk-Li-ur7" firstAttribute="trailing" secondItem="Nlv-Bb-2jB" secondAttribute="trailing" constant="100" id="OZW-uN-cdB"/>
+                            <constraint firstItem="34K-eW-yKa" firstAttribute="trailing" secondItem="frk-Li-ur7" secondAttribute="trailing" id="TWx-Wd-1IW"/>
+                            <constraint firstItem="34K-eW-yKa" firstAttribute="leading" secondItem="frk-Li-ur7" secondAttribute="leading" id="e9b-NA-vh9"/>
+                            <constraint firstItem="Nlv-Bb-2jB" firstAttribute="top" secondItem="frk-Li-ur7" secondAttribute="top" constant="203" id="rmh-jy-YLG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="frk-Li-ur7"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomShow" destination="4yL-nI-Kaq" id="QdC-Tc-Pll"/>
+                        <outlet property="btHideShow" destination="Nlv-Bb-2jB" id="EeV-Xx-8xr"/>
+                        <outlet property="numberPicker" destination="NY4-sM-EHj" id="hxy-7S-Jpv"/>
+                        <outlet property="viewShowPicker" destination="34K-eW-yKa" id="4xh-qv-pQB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="31O-X2-D7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440.80000000000001" y="122.78860569715144"/>
+        </scene>
+        <!--Sub View Controller-->
+        <scene sceneID="SXj-l6-0u7">
+            <objects>
+                <viewController id="sFG-AH-NY2" customClass="SubViewController" customModule="DaysPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="biV-jZ-bES">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DW5-UK-iCH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Ngg-GY-1lL"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="300"/>
+                    <connections>
+                        <outlet property="daysPicker" destination="DW5-UK-iCH" id="yV1-PA-60L"/>
+                        <outlet property="viewPickerDay" destination="biV-jZ-bES" id="Jqx-1J-nST"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shN-f2-iWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1733.5999999999999" y="122.33883058470765"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RadioButtonDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="WO2-gV-f6D">
+                                <rect key="frame" x="0.0" y="20" width="375" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHL-9z-ENb">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="30"/>
+                                        <state key="normal" title="⚪️Button"/>
+                                        <state key="selected" title="i"/>
+                                        <state key="highlighted" title="🔘Button"/>
+                                        <connections>
+                                            <action selector="onClickButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6By-iV-6T0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MsZ-jr-fm0">
+                                        <rect key="frame" x="94" y="0.0" width="93.5" height="30"/>
+                                        <state key="normal" title="⚪️Button"/>
+                                        <state key="selected" title="🔘Button"/>
+                                        <state key="highlighted" title="🔘Button"/>
+                                        <connections>
+                                            <action selector="onClickButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a35-eB-lVg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mp8-u6-FeE">
+                                        <rect key="frame" x="187.5" y="0.0" width="94" height="30"/>
+                                        <state key="normal" title="⚪️Button"/>
+                                        <state key="selected" title="🔘Button"/>
+                                        <state key="highlighted" title="🔘Button"/>
+                                        <connections>
+                                            <action selector="onClickButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ta-ZP-Pgw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDG-Ar-kC3">
+                                        <rect key="frame" x="281.5" y="0.0" width="93.5" height="30"/>
+                                        <state key="normal" title="⚪️Button"/>
+                                        <state key="selected" title="🔘Button"/>
+                                        <state key="highlighted" title="🔘Button"/>
+                                        <connections>
+                                            <action selector="onClickButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YwM-Go-6YI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lAY-e3-AJa">
+                                <rect key="frame" x="0.0" y="457" width="375" height="210"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D4p-xv-NT7">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    </pickerView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="8Fj-eW-h1b"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0LZ-fu-kBg">
+                                <rect key="frame" x="100" y="226" width="175" height="30"/>
+                                <state key="normal" title="------------"/>
+                                <state key="selected" title="--------------"/>
+                                <connections>
+                                    <action selector="clickSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ZJ-d8-oVk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lAY-e3-AJa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="B8c-gm-nWv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0LZ-fu-kBg" secondAttribute="trailing" constant="100" id="FEF-uL-OLx"/>
+                            <constraint firstAttribute="trailing" secondItem="WO2-gV-f6D" secondAttribute="trailing" id="Ll9-9P-ig3"/>
+                            <constraint firstItem="lAY-e3-AJa" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="NAE-Ts-HZG"/>
+                            <constraint firstItem="0LZ-fu-kBg" firstAttribute="top" secondItem="WO2-gV-f6D" secondAttribute="bottom" constant="176" id="Zzi-He-0ic"/>
+                            <constraint firstItem="WO2-gV-f6D" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bJW-Vf-h8p"/>
+                            <constraint firstItem="WO2-gV-f6D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h5j-wR-UqR"/>
+                            <constraint firstItem="0LZ-fu-kBg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="nsO-u7-5cy"/>
+                            <constraint firstItem="lAY-e3-AJa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sk2-A9-3qA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btSelectNumber" destination="0LZ-fu-kBg" id="KIG-E6-kkm"/>
+                        <outlet property="numberPicker" destination="D4p-xv-NT7" id="oah-IG-ZNu"/>
+                        <outlet property="numberView" destination="lAY-e3-AJa" id="GLI-4C-zFy"/>
+                        <outletCollection property="buttons" destination="eHL-9z-ENb" collectionClass="NSMutableArray" id="ERg-YS-heY"/>
+                        <outletCollection property="buttons" destination="MsZ-jr-fm0" collectionClass="NSMutableArray" id="zA0-be-8uR"/>
+                        <outletCollection property="buttons" destination="mp8-u6-FeE" collectionClass="NSMutableArray" id="9Fa-0f-3HB"/>
+                        <outletCollection property="buttons" destination="bDG-Ar-kC3" collectionClass="NSMutableArray" id="51m-Zt-KpU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-437.60000000000002" y="-155.17241379310346"/>
+        </scene>
+    </scenes>
+</document>

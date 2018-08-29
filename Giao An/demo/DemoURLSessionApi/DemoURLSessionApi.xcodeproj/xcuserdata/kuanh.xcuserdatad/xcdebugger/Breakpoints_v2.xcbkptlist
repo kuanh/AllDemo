@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoURLSessionApi/Controller/ViewController.swift"
+            timestampString = "548130683.687346"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DemoURLSessionApi.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "DemoURLSessionApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuanh/Desktop/study%20developing%20app%20/Giao%20An/demo/DemoURLSessionApi/DemoURLSessionApi/Controller/ViewController.swift"
+                  timestampString = "548130683.8284611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;DemoURLSessionApi.InfomationChampion&gt;) -&gt; () in DemoURLSessionApi.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "DemoURLSessionApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuanh/Desktop/study%20developing%20app%20/Giao%20An/demo/DemoURLSessionApi/DemoURLSessionApi/Controller/ViewController.swift"
+                  timestampString = "548130683.8323359"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

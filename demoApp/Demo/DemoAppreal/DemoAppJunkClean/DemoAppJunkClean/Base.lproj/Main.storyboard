@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QPt-BC-deN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Label View Controller-->
+        <scene sceneID="AaJ-BD-zEh">
+            <objects>
+                <viewController id="45d-Hg-xku" customClass="LabelViewController" customModule="DemoAppJunkClean" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lwN-p2-VBF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Vrr-4z-g2x">
+                                <rect key="frame" x="50" y="225" width="275" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEu-pD-Mtz">
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="110"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2km-nc-ree">
+                                        <rect key="frame" x="0.0" y="110" width="275" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Qph-8J-C1c"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="0f1-0J-KlO"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iTx-GF-QZZ" firstAttribute="trailing" secondItem="Vrr-4z-g2x" secondAttribute="trailing" constant="50" id="FT6-qN-pKO"/>
+                            <constraint firstItem="Vrr-4z-g2x" firstAttribute="leading" secondItem="iTx-GF-QZZ" secondAttribute="leading" constant="50" id="LVs-Rx-Deq"/>
+                            <constraint firstItem="Vrr-4z-g2x" firstAttribute="top" secondItem="lwN-p2-VBF" secondAttribute="top" constant="225" id="a50-74-JTL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iTx-GF-QZZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblName" destination="cEu-pD-Mtz" id="HtC-8k-rRE"/>
+                        <outlet property="viewNameLabel" destination="cEu-pD-Mtz" id="ZP2-6M-Icb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hKQ-h7-TYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="183" y="91"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KE5-Kf-cfW">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xGq-nD-rWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="QPt-BC-deN" customClass="ViewController" customModule="DemoAppJunkClean" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FJP-Ux-x7F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2C-JW-mya">
+                                <rect key="frame" x="100" y="352" width="175" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ur4-eK-ysR"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="45d-Hg-xku" kind="show" identifier="ShowLabel" id="g0i-ni-41c"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URf-a7-Ntq">
+                                <rect key="frame" x="50" y="253" width="275" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="aph-v1-1vX"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="URf-a7-Ntq" firstAttribute="top" secondItem="OJN-yw-enw" secondAttribute="top" constant="233" id="CO3-gw-EUr"/>
+                            <constraint firstItem="OJN-yw-enw" firstAttribute="trailing" secondItem="URf-a7-Ntq" secondAttribute="trailing" constant="50" id="LZs-Dg-00E"/>
+                            <constraint firstItem="URf-a7-Ntq" firstAttribute="leading" secondItem="OJN-yw-enw" secondAttribute="leading" constant="50" id="WjQ-fT-Scf"/>
+                            <constraint firstItem="V2C-JW-mya" firstAttribute="leading" secondItem="OJN-yw-enw" secondAttribute="leading" constant="100" id="e8N-Ee-5EU"/>
+                            <constraint firstItem="OJN-yw-enw" firstAttribute="trailing" secondItem="V2C-JW-mya" secondAttribute="trailing" constant="100" id="fdg-db-Bli"/>
+                            <constraint firstItem="V2C-JW-mya" firstAttribute="top" secondItem="URf-a7-Ntq" secondAttribute="bottom" constant="59" id="hGN-Fh-qmf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OJN-yw-enw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Po6-wo-QON"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="URf-a7-Ntq" id="pLR-ZU-S54"/>
+                        <outlet property="saveButton" destination="V2C-JW-mya" id="bDy-dA-FqL"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-686" y="90"/>
+        </scene>
+    </scenes>
+</document>

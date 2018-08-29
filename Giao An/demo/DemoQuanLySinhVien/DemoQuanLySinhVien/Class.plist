@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Class</key>
+	<array>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>1</integer>
+			<key>ClassCode</key>
+			<string>GC01</string>
+			<key>ClassName</key>
+			<string>Quản trị kinh doanh</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>1</integer>
+			<key>ClassCode</key>
+			<string>GC02</string>
+			<key>ClassName</key>
+			<string>Tài chính, Ngân hàng, Bảo hiểm</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>2</integer>
+			<key>ClassCode</key>
+			<string>GC03</string>
+			<key>ClassName</key>
+			<string>Kỹ thuật phần mềm nhúng và di động</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>2</integer>
+			<key>ClassCode</key>
+			<string>GC04</string>
+			<key>ClassName</key>
+			<string>An toàn thông tin</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>3</integer>
+			<key>ClassCode</key>
+			<string>GC05</string>
+			<key>ClassName</key>
+			<string>Khoa Ngân Hàng</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>3</integer>
+			<key>ClassCode</key>
+			<string>GC06</string>
+			<key>ClassName</key>
+			<string>Khoa Tài Chính</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>4</integer>
+			<key>ClassCode</key>
+			<string>GC07</string>
+			<key>ClassName</key>
+			<string>KHOA HỌC MÁY TÍNH</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>4</integer>
+			<key>ClassCode</key>
+			<string>GC08</string>
+			<key>ClassName</key>
+			<string>AN TOÀN THÔNG TIN</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>5</integer>
+			<key>ClassCode</key>
+			<string>GC09</string>
+			<key>ClassName</key>
+			<string>Khoa Toán-Tin</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>5</integer>
+			<key>ClassCode</key>
+			<string>GC10</string>
+			<key>ClassName</key>
+			<string>Khoa Công nghệ thông tin</string>
+		</dict>
+	</array>
+</dict>
+</plist>

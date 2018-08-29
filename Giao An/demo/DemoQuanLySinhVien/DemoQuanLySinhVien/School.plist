@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>School</key>
+	<array>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>1</integer>
+			<key>SchoolName</key>
+			<string>Đại Học Quốc Gia Hà Nội</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>2</integer>
+			<key>SchoolName</key>
+			<string>Học Viện Kỹ Thuật Mật Mã</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>3</integer>
+			<key>SchoolName</key>
+			<string>Học Viện Ngân Hàng</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>4</integer>
+			<key>SchoolName</key>
+			<string>Đại Học FPT</string>
+		</dict>
+		<dict>
+			<key>SchoolCode</key>
+			<integer>5</integer>
+			<key>SchoolName</key>
+			<string>Đại Học Sư Phạm</string>
+		</dict>
+	</array>
+</dict>
+</plist>

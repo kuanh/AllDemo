@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaiTongKet1/ViewController.swift"
+            timestampString = "530627079.235236"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaiTongKet1.ViewController.number.getter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Int&gt;"
+                  moduleName = "BaiTongKet1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuanh/Desktop/study%20developing%20app%20/TongKetTatCaCacBai/Demo/BaiTongKet1/BaiTongKet1/ViewController.swift"
+                  timestampString = "529661746.803023"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaiTongKet1.ViewController.number.setter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Int&gt;"
+                  moduleName = "BaiTongKet1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuanh/Desktop/study%20developing%20app%20/TongKetTatCaCacBai/Demo/BaiTongKet1/BaiTongKet1/ViewController.swift"
+                  timestampString = "529661746.805948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaiTongKet1.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BaiTongKet1.ViewController"
+                  moduleName = "BaiTongKet1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuanh/Desktop/study%20developing%20app%20/TongKetTatCaCacBai/Demo/BaiTongKet1/BaiTongKet1/ViewController.swift"
+                  timestampString = "529661746.809205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "374">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaiTongKet1.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;BaiTongKet1.ViewController&gt;"
+                  moduleName = "BaiTongKet1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuanh/Desktop/study%20developing%20app%20/TongKetTatCaCacBai/Demo/BaiTongKet1/BaiTongKet1/ViewController.swift"
+                  timestampString = "529661746.813407"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaiTongKet1/ViewController.swift"
+            timestampString = "530627079.23676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
